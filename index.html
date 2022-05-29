@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="imgs/Me (2).jpeg">
+    <title>Ahmed Bousaleh</title>  
+</head>
+<body>
+    <header class="header">
+        <a href="" id="logo"> <span>Ahmed</span> Bousaleh</a>
+        <nav class="navigation">
+            <ul class="main-menu" id="main-menu">
+                <div class="closebtn" onclick="showMenu();">
+                    <i class="fa fa-close"></i>
+                </div>
+                <a href="#about-me"><li>About Me</li></a>
+                <a href="#services"><li>Services</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+            <div class="burgerbtn" onclick="showMenu();">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="main-section">
+        <div>
+            <h2>Hello world! <br><span>i'm Ahmed</span></h2>
+            <h3>i'm a Development Degital Student</h3>
+            <a href="resume/AHMED BOUSALEH_2.pdf" class="main-btn" target="_blank">View My Resume</a>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ahmed-bousaleh-833b12212/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/bousaleh50" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <h2 class="title">About Me</h2>
+        <div class="about-content">
+            <div class="my-info">
+                <span>Development Degital Student</span><br>
+                <p>My name is Ahmed, I'm Development Digital Student at OFPPT <span>NTIC SIDI MAAROF</span>, I'm a blogger and I'm interested in software engineering, especially in the filed of Web and game development in addition to Aritficiel Intelegence, I love self-education, and I'm looking for an internship to develop my problem solving, and my software skills.</p>
+            </div>
+            <article class="my-image">
+                <img src="imgs/me (3).jpeg" alt="">
+            </article>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="cards">
+                <div class="icon">
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                    <h1>Front-End</h1>
+                    <p>i can creat a static web pages using html,css and js</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="icon">
+                    <i class="fa fa-code"></i>
+                </div>
+                <div class="info">
+                    <h1>Back-End</h1>
+                    <p>Under Studying </p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                </div>
+                <div class="info">
+                    <h1>Full-Stack</h1>
+                    <p>Under Studying</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="projects-card">
+                <div class="projects-img">
+                    <img src="imgs/jarvis.jpg" alt="">
+                </div>
+                <div class="projects-desc">
+                    <p>Personal assistant,works using voices</p>
+                </div>
+                <div class="projects-title">
+                    <h3>jarvis</h3>
+                    <a href="https://github.com/bousaleh50/My-assistant" target="_blank">More Details</a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <div class="projects-img">
+                    <img src="imgs/to-do-list.jpg" alt="">
+                </div>
+                <div class="projects-desc">
+                    <p>To Do list to  Organize your tasks </p>
+                </div>
+                <div class="projects-title">
+                    <h3>To DO List</h3>
+                    <a href="https://github.com/bousaleh50/To-Do-List" target="_blank">More Details</a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <div class="projects-img">
+                    <img src="imgs/tictactoa.jpg" alt="">
+                </div>
+                <div class="projects-desc">
+                    <p>Tic Tac Toa game with the Minimax algorithm you VS your computer</p>
+                </div>
+                <div class="projects-title">
+                    <h3>Tic Tac Toa AI</h3>
+                    <a href="https://github.com/bousaleh50/tic-tac-toa-with-AI" target="_blank">More Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="more-projects">
+            <p>for more of my projects visite my <a href="https://github.com/bousaleh50" target="_blank">Github</a></p>
+       </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="content">
+           <div id="html">
+               <h2>Html</h2>
+               <progress max="100" value="80">Html</progress>
+           </div>
+           <div id="css">
+               <h2>CSS</h2>
+               <progress max="100" value="60">CSS</progress>
+           </div>
+           <div id="js">
+                <h2>JavaScript</h2>
+                <progress max="100" value="40">JavaScript</progress>
+           </div>
+           <div id="python">
+                <h2>Python</h2>
+                <progress max="100" value="60">Python</progress>
+           </div>
+           <div id="cpp">
+                <h2>C++</h2>
+                <progress max="100" value="50">C++</progress>
+           </div>
+        </div>
+        <div class="more-skills">
+            <h3>More Skills</h3>
+            <ul class="skills-menu">
+                <li>Github</li>
+                <li>Probleme Solving</li>
+                <li>Data Structure & algorithm</li>
+                <li>Object oriented Programming</li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-me" id="contact">
+        <h2 class="title">Contact Me</h2>
+        <div class="content">
+            <form  id="contact-form" method="post" onsubmit="sendEmails(); reset();return false;">
+                <input type="text" id="visiter-name" placeholder="Your Name....">
+                <input type="email" id="visiter-email" placeholder="Your Email...">
+                <input type="text" id="subject" placeholder="Subject">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Messaage"></textarea>
+                <button id="send" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <h2 class="title">Ahmed Bousaleh</h2>
+      <div class="content">
+            <div class="contact-info">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <h3>0635931543</h3>
+                </div>
+                <div>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>0691293798</h3>
+                </div>
+                <div>
+                    <i class="fa-solid fa-at"></i>
+                    <h3>bousalehahmed5@gmail.com</h3>
+                </div>
+                <div>
+                    <i class="fa fa-location"></i>
+                    <h3>Casablanca,morocco</h3>
+                </div>
+            </div>
+            <div class="copy-right">
+                    <p>CopyRight by Ahmed Bousaleh 2022</p>
+            </div>
+      </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
