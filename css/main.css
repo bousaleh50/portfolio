@@ -178,6 +178,10 @@ section{
    letter-spacing: 2px;
 }
 
+.my-info p{
+    letter-spacing: 3px;
+    line-height: 40px;
+}
 
 .my-info p>span{
     color: #3a6cf4;
@@ -416,22 +420,21 @@ footer{
 
     .burgerbtn{
         display: block;
-        appearance: menulist-button;
     }
+
 
     .closebtn{
         color:#3a6cf4;
         float:right;
         font-size: 2em;
         margin-right:1em;
-
     }
     
     .main-menu{
         display: none;
         width: 100vw;
-        height:100vh;
-        background-color: #000;
+        height:50vh;
+        background-color:rgb(44, 42, 42);
         position: fixed;
         top:0;
         left:0;
@@ -443,13 +446,14 @@ footer{
     }
 
     .main-menu a{
+        display: block;
        text-align:center;
-       margin:10px 60px;
+       margin-left:40%;
        display: flex;
     }
 
     .main-menu a:hover{
-        background-color:#3a6cf4;
+        color:blue;
     }
 
     .main-menu a:hover::after{
@@ -505,9 +509,8 @@ footer{
     .title{
         color:#3a6cf4;
         text-align: center;
-        padding:4px;
-        font-size: 1.1em;
-        margin-right: 40px;
+        padding-top:4px;
+        font-size: 2em;
     }
     
     .content{
