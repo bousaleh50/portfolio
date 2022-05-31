@@ -19,6 +19,7 @@ header{
 .closebtn{
     color:#3a6cf4;
     float:right;
+    display: none;
 }
 
 .burgerbtn{
@@ -169,7 +170,6 @@ section{
 
 .my-info{
     margin-top: 30px;
-    max-width: 50%;
 }
 
 .my-info span{
@@ -391,7 +391,7 @@ footer{
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 540px){
     html{
         font-size: 13px;
     }
@@ -424,6 +424,7 @@ footer{
 
 
     .closebtn{
+        display: block;
         color:#3a6cf4;
         float:right;
         font-size: 2em;
@@ -453,7 +454,7 @@ footer{
     }
 
     .main-menu a:hover{
-        color:blue;
+        color:#3a6cf4;
     }
 
     .main-menu a:hover::after{
