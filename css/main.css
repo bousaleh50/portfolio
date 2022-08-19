@@ -440,12 +440,11 @@ footer{
     
     .main-menu{
         display: none;
-        width: 100vw;
+        width: 100%;
         height:50vh;
         background-color:rgb(44, 42, 42);
         position: fixed;
-        top:0;
-        left:0;
+        margin:auto;
         z-index: 999;
     }
 
@@ -459,6 +458,12 @@ footer{
        margin-left:40%;
        display: flex;
     }
+    
+    .menu-item{
+        position: absolute;
+        width:100%;
+        top:20px;
+    }
 
     .main-menu a:hover{
         color:#3a6cf4;
@@ -468,6 +473,9 @@ footer{
         width:0;
     }
 
+    .main-section{
+        top:90px;
+    }
     
     section{
        padding:30px;
